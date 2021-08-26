@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/style.css"],"names":[],"mappings":"AAAA;IACI,gBAAgB;IAChB,UAAU;IACV,SAAS;AACb","file":"main.css","sourcesContent":["body {\n    overflow: hidden;\n    padding: 0;\n    margin: 0;\n}\n"],"sourceRoot":""}

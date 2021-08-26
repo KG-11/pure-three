@@ -1,0 +1,199 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v1.7.7",
+    "version": "2.0"
+  },
+  "extensionsUsed": ["KHR_materials_variants"],
+  "scene": 0,
+  "extensions": {
+    "KHR_materials_variants": {
+      "variants": [{ "name": "Wood" }, { "name": "Dark" }, { "name": "Green" }]
+    }
+  },
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [0]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Model",
+      "translation": [0, 21.21624183654785, 0]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "brown_wooden",
+      "normalTexture": {
+        "index": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.5527864098548889
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Darking",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "roughnessFactor": 0.5527864098548889
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Greenish",
+      "normalTexture": {
+        "index": 4
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 5
+        },
+        "roughnessFactor": 0.5527864098548889
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "extensions": {
+            "KHR_materials_variants": {
+              "mappings": [
+                {
+                  "material": 0,
+                  "variants": [0]
+                },
+                {
+                  "material": 1,
+                  "variants": [1]
+                },
+                {
+                  "material": 2,
+                  "variants": [2]
+                }
+              ]
+            }
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/jpeg",
+      "uri": "Wooden_Cup_diff.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "uri": "Wooden_Cup_normal.jpg"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 55848,
+      "max": [2.710899591445923, -17.012300491333008, 1.174400806427002],
+      "min": [-1.5704001188278198, -21.400699615478516, -1.4566994905471802],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 55848,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 55848,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 327426,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 670176,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 670176,
+      "byteOffset": 670176
+    },
+    {
+      "buffer": 0,
+      "byteLength": 446784,
+      "byteOffset": 1340352
+    },
+    {
+      "buffer": 0,
+      "byteLength": 654852,
+      "byteOffset": 1787136
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2441988,
+      "uri": "MaterialChange.bin"
+    }
+  ]
+}
